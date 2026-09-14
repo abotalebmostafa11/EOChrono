@@ -1,0 +1,6 @@
+# Runtime dependency installed outside QGIS
+requests>=2.31,<3
+
+# QGIS, PyQGIS, qgis.PyQt and QGIS/GDAL Processing providers are supplied
+# by the QGIS Desktop installation and should not be installed from PyPI
+# as ordinary Python dependencies for this plugin.

@@ -1,0 +1,15 @@
+[general]
+name=EOChrono
+qgisMinimumVersion=3.28
+qgisMaximumVersion=3.99
+description=Satellite image discovery, temporal scene selection, download tracking, inventory management and raster processing for QGIS.
+version=7.0.0
+author=Mostafa Abotaleb; Aleksander Vokhmintcev; Pradeep Mishra; Shikha Yadav; Soumik Ray
+email=abotalebmostafa@bk.ru
+about=EOChrono is a multi-source Earth observation plugin for catalogue search, quality-aware and temporal scene selection, resilient downloads, local inventory records and QGIS raster processing.
+category=Raster
+icon=icon.png
+experimental=False
+deprecated=False
+repository=https://github.com/abotalebmostafa11/EOChrono
+tracker=https://github.com/abotalebmostafa11/EOChrono/issues

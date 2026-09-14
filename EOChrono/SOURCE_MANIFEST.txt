@@ -1,0 +1,17 @@
+README.md
+SOURCE_MANIFEST.txt
+__init__.py
+core/__init__.py
+core/auth.py
+core/downloader.py
+core/geometry.py
+core/inventory.py
+core/processing.py
+core/project.py
+core/providers.py
+core/quality.py
+core/search.py
+geoimage_manager.py
+icon.png
+metadata.txt
+ui_dialog.py

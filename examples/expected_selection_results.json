@@ -1,0 +1,33 @@
+{
+  "top_count": {
+    "selected": [
+      "S1",
+      "S2",
+      "S3"
+    ],
+    "mean_cloud": 1.0,
+    "span_days": 4,
+    "months_covered": 1
+  },
+  "temporal": {
+    "selected": [
+      "S1",
+      "S4",
+      "S5"
+    ],
+    "mean_cloud": 10.0,
+    "span_days": 121,
+    "months_covered": 3
+  },
+  "monthly": {
+    "selected": [
+      "S1",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "mean_cloud": 12.5,
+    "span_days": 182,
+    "months_covered": 4
+  }
+}

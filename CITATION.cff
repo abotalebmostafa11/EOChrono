@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use EOChrono in research, please cite the software and the associated Software Impacts article when available."
+title: "EOChrono: Satellite Image Discovery and Temporal Scene Selection in QGIS"
+type: software
+version: "7.0.0"
+license: MIT
+repository-code: "https://github.com/abotalebmostafa11/EOChrono"
+url: "https://github.com/abotalebmostafa11/EOChrono"
+abstract: >-
+  EOChrono is a QGIS plugin for satellite-image discovery, quality-aware
+  ranking, temporal scene selection, download tracking, local acquisition
+  records and raster-processing operations for Earth observation workflows.
+keywords:
+  - QGIS
+  - Earth observation
+  - satellite imagery
+  - temporal sampling
+  - STAC
+  - Sentinel
+  - Landsat
+  - MODIS
+authors:
+  - family-names: "Abotaleb"
+    given-names: "Mostafa"
+    affiliation: "Engineering School of Digital Technologies, Yugra State University, Khanty-Mansiysk, Russia"
+  - family-names: "Vokhmintcev"
+    given-names: "Aleksander"
+    affiliation: "Chelyabinsk State University, Chelyabinsk, Russia"
+  - family-names: "Mishra"
+    given-names: "Pradeep"
+    affiliation: "College of Agriculture, Rewa, J.N.K.V.V., Madhya Pradesh, India"
+  - family-names: "Yadav"
+    given-names: "Shikha"
+    affiliation: "Department of Geography, Miranda House, University of Delhi, New Delhi 110007, India"
+  - family-names: "Ray"
+    given-names: "Soumik"
+    affiliation: "Centurion University of Technology and Management, Odisha 761211, India"
+contact:
+  family-names: "Abotaleb"
+  given-names: "Mostafa"
+  email: "abotalebmostafa@bk.ru"
