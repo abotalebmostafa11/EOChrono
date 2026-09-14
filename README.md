@@ -427,14 +427,14 @@ If you use EOChrono in research, cite the software repository and the associated
 Suggested software citation:
 
 ```text
-Abotaleb, M. (2026). EOChrono: Satellite image discovery and temporal scene selection in QGIS. Version 7.0.0. https://github.com/abotalebmostafa11/EOChrono
+Abotaleb, M., Vokhmintcev, A., Mishra, P., Yadav, S., & Ray, S. (2026). EOChrono: Satellite image discovery and temporal scene selection in QGIS. Version 7.0.0. https://github.com/abotalebmostafa11/EOChrono
 ```
 
 BibTeX:
 
 ```bibtex
 @software{abotaleb_eochrono_2026,
-  author  = {Mostafa Abotaleb},
+  author  = {Mostafa Abotaleb and Aleksander Vokhmintcev and Pradeep Mishra and Shikha Yadav and Soumik Ray},
   title   = {EOChrono: Satellite Image Discovery and Temporal Scene Selection in QGIS},
   year    = {2026},
   version = {7.0.0},
@@ -458,7 +458,19 @@ Project title:
 
 > Development of a geoinformation system based on artificial intelligence methods for monitoring and forecasting waterlogging, bogging, and degradation of forest-marsh territories of the Khanty-Mansi Autonomous Okrug — Yugra.
 
-## Author and support
+## Authors and support
+
+### Authors
+
+| Author | Affiliation | Email |
+|---|---|---|
+| Mostafa Abotaleb | Engineering School of Digital Technologies, Yugra State University, Khanty-Mansiysk, Russia | `abotalebmostafa@bk.ru` |
+| Aleksander Vokhmintcev | Chelyabinsk State University, Chelyabinsk, Russia | `vav2000@inbox.ru` |
+| Pradeep Mishra | College of Agriculture, Rewa, J.N.K.V.V., Madhya Pradesh, India | `pradeepjnkvv@gmail.com` |
+| Shikha Yadav | Department of Geography, Miranda House, University of Delhi, New Delhi 110007, India | `shikhayadav356@gmail.com` |
+| Soumik Ray | Centurion University of Technology and Management, Odisha 761211, India | `raysoumik4@gmail.com` |
+
+### Corresponding author and software support
 
 Mostafa Abotaleb  
 Engineering School of Digital Technologies  
@@ -468,7 +480,6 @@ Khanty-Mansiysk, Russia
 Support email: `abotalebmostafa@bk.ru`
 
 GitHub: https://github.com/abotalebmostafa11
-
 ## License
 
 EOChrono is distributed under the MIT License.
