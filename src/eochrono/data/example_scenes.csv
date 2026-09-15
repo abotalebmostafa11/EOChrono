@@ -1,0 +1,7 @@
+id,name,date,cloud,coverage,provider
+S1,S1,2024-01-01,0,100,illustrative
+S2,S2,2024-01-03,1,100,illustrative
+S3,S3,2024-01-05,2,100,illustrative
+S4,S4,2024-03-01,12,100,illustrative
+S5,S5,2024-05-01,18,100,illustrative
+S6,S6,2024-07-01,20,100,illustrative
