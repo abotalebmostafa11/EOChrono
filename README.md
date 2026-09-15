@@ -516,4 +516,3 @@ When reporting a problem, include:
 - Error message.
 - Minimal steps needed to reproduce the issue.
 
-Please do not include usernames, passwords, access tokens, or other credentials in issue reports.
