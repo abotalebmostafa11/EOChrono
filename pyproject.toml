@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eochrono"
+version = "7.0.0"
+description = "Satellite scene scoring, temporal selection and Earth observation workflow utilities"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+keywords = ["earth-observation", "satellite", "qgis", "stac", "landsat", "sentinel", "modis", "temporal-sampling"]
+authors = [
+  {name = "Mostafa Abotaleb", email = "abotalebmostafa@bk.ru"},
+  {name = "Aleksander Vokhmintcev", email = "vav2000@inbox.ru"},
+  {name = "Pradeep Mishra", email = "pradeepjnkvv@gmail.com"},
+  {name = "Shikha Yadav", email = "shikhayadav356@gmail.com"},
+  {name = "Soumik Ray", email = "raysoumik4@gmail.com"},
+]
+maintainers = [
+  {name = "Mostafa Abotaleb", email = "abotalebmostafa@bk.ru"}
+]
+dependencies = [
+  "requests>=2.31,<3",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+  "build>=1.2,<2",
+  "twine>=6,<8",
+]
+
+[project.scripts]
+eochrono-demo = "eochrono.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/abotalebmostafa11/EOChrono"
+Repository = "https://github.com/abotalebmostafa11/EOChrono"
+Issues = "https://github.com/abotalebmostafa11/EOChrono/issues"
+Documentation = "https://github.com/abotalebmostafa11/EOChrono/blob/main/README.md"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+eochrono = ["data/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
